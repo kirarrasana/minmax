@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MinMax
+{
+    public class MinMaxv1 : MinMaxBase
+    {
+        public int[] GetNumbers()
+        {
+            return new int[] { 1, -2, 3, 4, 5, 6 };
+        }
+    }
+}
